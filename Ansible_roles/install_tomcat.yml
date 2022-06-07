@@ -1,0 +1,5 @@
+---
+- name: create ansible user
+  hosts: webserver
+  roles:
+  - { role: install_tomcat }
